@@ -16,8 +16,7 @@ public class App {
 	            bitSet.set(number - 1);
 	        }
 	 
-	        System.out.printf("Missing numbers in integer array %s, with total number %d is %n",
-	        Arrays.toString(numbers), count);
+	        System.out.printf("Missing numbers in integer array %s, with total number %d is %n", Arrays.toString(numbers), count);
 	        int lastMissingIndex = 0;
 
 	        for (int i = 0; i < missingCount; i++) {

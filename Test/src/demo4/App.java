@@ -39,6 +39,7 @@ public class App {
 		
 		System.out.println("Press return to stop");
 		
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner (System.in);
 		scanner.nextLine();
 		

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="CodeClincMusic"/>
+	<classpathentry kind="src" path="PriorityQueues"/>
+	<classpathentry kind="src" path="FindMissingNumberInArray"/>
+	<classpathentry kind="src" path="DatesInJava"/>
+	<classpathentry kind="src" path="for_each_iterator"/>
+	<classpathentry kind="src" path="ArrayCopy"/>
+	<classpathentry kind="src" path="Fibonaci"/>
+	<classpathentry kind="src" path="codewar"/>
+	<classpathentry kind="src" path="hackersrank_prob"/>
+	<classpathentry kind="src" path="uva_online_judge"/>
+	<classpathentry kind="lib" path="CodeClincMusic/lib/jfugue-4.0.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
