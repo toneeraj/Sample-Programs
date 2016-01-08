@@ -17,6 +17,7 @@ public class ForEachTest {
         list.add("Windows Mobile");
        
         // Which Code will throw ConcurrentModificationException, both, 
+        //Should be called remove on iterator
 
         // none or one of them
         System.out.println(list);   
