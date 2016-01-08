@@ -84,10 +84,10 @@ public class Suite2 {
 		    tasks.add(service.submit(new Callable<Fraction>() {
 		        public Fraction call() {
 		        	Fraction rowFraction = new Fraction(numerator, denominator);
-					rowFractionSum = rowFractionSum.sum(rowFraction);
+					//rowFractionSum = rowFractionSum.sum(rowFraction);
 					
-					numerator = numerator.add(BigInteger.ONE);
-					denominator = denominator.add(BigInteger.ONE);
+					//numerator = numerator.add(BigInteger.ONE);
+					//denominator = denominator.add(BigInteger.ONE);
 					
 					return rowFractionSum;	
 		        }

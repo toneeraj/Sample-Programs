@@ -13,9 +13,9 @@ public class TestToStringRef {
 		System.out.println(ref1 + " & " + ref2);
 	}
 
-	//references are passed by value
+	// references are passed by value
 	private static void callMe(TestToStringRef... ref) {
-		
+
 		System.out.println(ref[0] + " & " + ref[1]);
 		ref[0] = ref[1];
 
